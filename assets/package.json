@@ -1,0 +1,42 @@
+{
+  "name": "assets2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "ts,vue",
+      "ignore": "src/vendor/external.min.js",
+      "quiet": true,
+      "legacyWatch": true,
+      "delay": 2500,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "watch": "npm-watch"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.17",
+    "highlight.js": "^11.7.0",
+    "markdown-it": "^13.0.1",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "npm-watch": "^0.11.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vue-tsc": "^1.2.0"
+  }
+}

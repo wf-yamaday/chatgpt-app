@@ -1,0 +1,5 @@
+@import 'highlight.js/styles/base16/horizon-dark.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
