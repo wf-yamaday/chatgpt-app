@@ -1,6 +1,7 @@
 # chatgpt-app
 
 [![CI - Lint](https://github.com/wf-yamaday/chatgpt-app/actions/workflows/ci.yml/badge.svg)](https://github.com/wf-yamaday/chatgpt-app/actions/workflows/ci.yml)
+[![CI - Docker Image Build](https://github.com/wf-yamaday/chatgpt-app/actions/workflows/ci-build.yml/badge.svg)](https://github.com/wf-yamaday/chatgpt-app/actions/workflows/ci-build.yml)
 
 This is a simple web application that wraps OpenAI's Chat API.
 
