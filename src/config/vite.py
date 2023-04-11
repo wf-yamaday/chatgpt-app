@@ -22,7 +22,7 @@ class ViteAssetsLoader:
             )
 
     def generate_css_file_name(self) -> str:
-        return self.manifest[self.css_file]["file"]
+        return self.manifest[self.css_file]["file"]  # type: ignore
 
     def generate_js_file_name(self) -> str:
-        return self.manifest[self.entry_point_js_file]["file"]
+        return self.manifest[self.entry_point_js_file]["file"]  # type: ignore

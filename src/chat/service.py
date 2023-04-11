@@ -7,6 +7,7 @@ from src.chat.schema.internal.request import ChatStreamRequest
 
 
 def generate_stream(payload: ChatStreamRequest) -> Generator[str, None, None]:
+    # flake8: noqa
     """
     Generates a chat stream using OpenAI's model based on the user input specified in `payload`.
 

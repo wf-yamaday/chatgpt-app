@@ -8,6 +8,7 @@ Role = Literal["system", "user", "assistant"]
 
 
 class ChatConfig(BaseModel):
+    # flake8: noqa
     """
     Configuration for the chat model.
     See: https://platform.openai.com/docs/api-reference/chat

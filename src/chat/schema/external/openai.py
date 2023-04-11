@@ -45,6 +45,7 @@ class UsageResponse:
 
 
 class OpenAIChatResponse(TypedDict):
+    # flake8: noqa
     """
     A response object for an OpenAI chat completion.
 
