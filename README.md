@@ -5,6 +5,10 @@
 
 This is a simple web application that wraps OpenAI's Chat API.
 
+https://user-images.githubusercontent.com/27722351/231453924-3cf0ef20-4154-4141-b0ca-b9d9f0a50bf6.mp4
+
+<br>
+
 The application is designed to be simple and can be used as a starting point for customization.
 For example, this application can be used to create your original web application.
 
